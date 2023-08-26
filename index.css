@@ -1,0 +1,76 @@
+/* Reset some default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the main header */
+  main h2 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 24px;
+  }
+  
+  /* Style the university section */
+  .University-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .university {
+    width: 200px;
+    height: 200px;
+    background-color:grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+  }
+  
+  .university h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /* Style the mentor section */
+  .mentor-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .mentor {
+    background-color: grey;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .mentor img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .mentor h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .mentor p {
+    font-size: 1em;
+  }
+  
+  .mentor button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
